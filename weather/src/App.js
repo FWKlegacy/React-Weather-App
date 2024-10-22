@@ -7,7 +7,6 @@ import './App.css'
 
 function App() {
 
-
   const [weatherData, setWeatherData] = useState(null);
   const [city, setCity] = useState("");
   const[loading, setLoading]= useState(false);
@@ -15,9 +14,6 @@ function App() {
   const apiKey ="6141dab13c7d37e8db2d28250893827c"
 
   
-
-
-
 
   const fetchWeather = async(cityName)=>{
     console.log("fetching weather for :", cityName)
